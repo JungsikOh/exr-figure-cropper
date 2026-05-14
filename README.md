@@ -4,7 +4,15 @@ EXR Cropper is a Python desktop app for extracting matching crop regions from Op
 
 It is designed for rendering and path tracing comparison workflows where the same region needs to be cropped from multiple EXR outputs.
 
-![EXR Cropper demo](screenshots/demo.png)
+## Preview
+
+![EXR Cropper UI](screenshots/ui-demo.png)
+
+## Sample Outputs
+
+| Reference overlay | Path tracer crop | Reference crop |
+| --- | --- | --- |
+| <img src="screenshots/sample-reference-overlay.png" alt="Reference overlay with crop box" width="320"> | <img src="screenshots/sample-crop-pathtracer.png" alt="Path tracer crop sample" width="180"> | <img src="screenshots/sample-crop-reference.png" alt="Reference crop sample" width="180"> |
 
 ## Features
 
