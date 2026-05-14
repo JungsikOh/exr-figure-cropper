@@ -4,6 +4,8 @@ EXR Cropper is a Python desktop app for extracting matching crop regions from Op
 
 It is designed for rendering and path tracing comparison workflows where the same region needs to be cropped from multiple EXR outputs.
 
+![EXR Cropper demo](screenshots/demo.png)
+
 ## Features
 
 - Load multiple `.exr` / `.EXR` files.
@@ -117,6 +119,7 @@ Files intended for source control:
 
 ```text
 src/
+screenshots/
 pyproject.toml
 requirements.txt
 README.md
