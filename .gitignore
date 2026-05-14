@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.spec
+*.exe
+*.zip
+*.7z
+
+# Local environments
+.venv/
+venv/
+
+# Local-only folders
+/input_exr/
+/output/
+/test/
+/tests/
+/tools/
+
+# Packaged builds and release artifacts
+/dist/
+/build/
+/release/

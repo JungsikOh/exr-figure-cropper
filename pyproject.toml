@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exr-cropper"
+version = "0.1.0"
+description = "GUI tool for extracting matching crop regions from EXR files."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy==2.4.4",
+    "OpenEXR==3.4.11",
+    "Pillow==12.2.0",
+    "PySide6==6.11.1",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==9.0.3",
+]
+dev = [
+    "pytest==9.0.3",
+]
+
+[project.scripts]
+exr-cropper = "exr_cropper.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

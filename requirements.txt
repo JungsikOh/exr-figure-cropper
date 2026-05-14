@@ -1,0 +1,4 @@
+numpy==2.4.4
+OpenEXR==3.4.11
+Pillow==12.2.0
+PySide6==6.11.1
